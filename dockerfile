@@ -1,8 +1,6 @@
 FROM amazonlinux:latest
 
-ENV PHPMYADMIN_VERSION 5.0.1
-
-# PHP 7.2 package dependency installation
+# Install Nginx
 RUN amazon-linux-extras install nginx1=latest
 
 # Copy our nginx config
