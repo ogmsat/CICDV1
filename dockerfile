@@ -1,7 +1,7 @@
 FROM amazonlinux:2
 
 # Run Update
-RUN yum update -y \
+RUN yum update -y
 
 # Install Nginx
 RUN amazon-linux-extras install nginx1=latest
