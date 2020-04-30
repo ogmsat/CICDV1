@@ -1,4 +1,4 @@
-FROM amazonlinux:latest
+FROM amazonlinux
 
 # Install Nginx
 RUN amazon-linux-extras install nginx1=latest
